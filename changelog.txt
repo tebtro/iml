@@ -1,0 +1,69 @@
+Version: 0.0.011, 12 June 2021
+---------------------------------
+- Added Global_Test_Suit.
+- No CRT run static constructors and destructors.
+
+
+Version: 0.0.010, 13 March 2021
+---------------------------------
+- Added _tls_index when compiling without CRT.
+
+
+Version: 0.0.009, 05 March 2021
+---------------------------------
+- Renamed local array to static array and static bit array.
+- Added Local_Array using alloca.
+- Test suit removed extra newline.
+
+
+Version: 0.0.008, 09 Jannuary 2021
+---------------------------------
+- Added enum_T and enum_flags_T, which has operators defined for bit operations.
+
+
+Version: 0.0.007, 09 November 2020
+---------------------------------
+- Improved resize for Bit_Array and Bucket_Array.
+- Better tests for resize.
+
+
+Version: 0.0.006, 06 November 2020
+---------------------------------
+- Fix major bug in iml_test_suit with groups, before and after each is not run at the actual callsite of the lambda.
+- Local_Bit_Array iterators.
+- Bit_Array tests.
+- test_suit pass config to every node.
+
+
+Version: 0.0.005, 01 November 2020
+---------------------------------
+- Added test_iml.cpp, to test array, data structures, ...
+- Improved array implementation and tests, ...
+- Added constexr_count_bits_set, used in bucket_arary for now.
+
+
+Version: 0.0.004, 31 October 2020
+---------------------------------
+- Added iml_test_suit.h
+- Added iml_bit_array.h
+- Added iml_local_bit_array.h
+
+
+Version: 0.0.003, 24 October 2020
+---------------------------------
+- Added exit to msvc.c
+- Added iml_terminal.h for ansi terminal color support.
+- assert and print_stack_trace uses ansi colors now.
+- Added iml_string_hash.h for meiyan hash.
+
+
+Version: 0.0.002, 23 October 2020
+---------------------------------
+- New pool implementation, which uses a memory arena now.
+  So that the alignment is correct also on the first allocation.
+
+
+Version: 0.0.001, 23 October 2020
+---------------------------------
+- Added changelog.txt
+- Cleaned up array and bucket array implementation.
